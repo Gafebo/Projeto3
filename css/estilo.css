@@ -1,10 +1,87 @@
-body {
-    background-color: #878787;
-    color: rgb(0, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+body{
+background-color: #29264b4e;
 }
 
-.titulo{ 
-    color: #1500ff;
-    background-color: black
+#meu_menu {
+    /* abrindo id do menu */
+    text-align: center;
+    /* margem lateral */
+    border-bottom: solid;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
     
+}
+
+/* fechando id do menu */
+
+#meu_menu a {
+    text-decoration: none;
+    color: #1100ff;
+   
+}
+
+/* colocando efeito de sobre no menu */
+#meu_menu a:hover {
+    color: #000000;
+    background-color: #1100ff;
+    transition: 0.6s;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+.titulo {
+    text-align: center;
+    border-style: double;
+    border-radius: 5px;
+    border-color: #1100ff;
+    font-family: 'Alata', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #1100ff;
+    font-family: 'Love Ya Like A Sister', 'cursive';
+
+}
+
+#fundo{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    
+}
+
+img{
+    width: 20%;
+}
+
+/* trabalhando na div principal */
+.master{
+display: flex;
+}
+
+.col_esquerda{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: 'Alata', sans-serif;
+}
+.col_direita{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: 'Alata', sans-serif;
+}
+
+.titulo_col{
+    text-align: center;
+    font-size: 10px;
+    background-color: #bd4242;
+    font-family: 'Alata', sans-serif;
+
+}
+
+.base{
+    background-color: #000000;
+    color: #1100ff;
+    font-family: 'Love Ya Like A Sister', 'cursive';
 }
